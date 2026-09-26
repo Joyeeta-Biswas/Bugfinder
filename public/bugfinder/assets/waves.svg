@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0f6ff"/>
+      <stop offset="50%" stop-color="#e8f2fe"/>
+      <stop offset="100%" stop-color="#dfeeff"/>
+    </linearGradient>
+    <linearGradient id="lineGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#93c5fd" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="lineGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#2563eb" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#93c5fd" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1920" height="1080" fill="url(#bgGrad)"/>
+
+  <!-- Parametric Wireframe Curves matching video and screenshots -->
+  <g stroke="url(#lineGrad1)" stroke-width="1.2" fill="none">
+    <path d="M-100,200 C300,50 700,600 1200,300 C1600,100 1850,550 2050,450" />
+    <path d="M-100,250 C320,100 720,620 1220,340 C1620,140 1870,570 2050,490" />
+    <path d="M-100,300 C340,150 740,640 1240,380 C1640,180 1890,590 2050,530" />
+    <path d="M-100,350 C360,200 760,660 1260,420 C1660,220 1910,610 2050,570" />
+    <path d="M-100,400 C380,250 780,680 1280,460 C1680,260 1930,630 2050,610" />
+    <path d="M-100,450 C400,300 800,700 1300,500 C1700,300 1950,650 2050,650" />
+    <path d="M-100,500 C420,350 820,720 1320,540 C1720,340 1970,670 2050,690" />
+    <path d="M-100,550 C440,400 840,740 1340,580 C1740,380 1990,690 2050,730" />
+    <path d="M-100,600 C460,450 860,760 1360,620 C1760,420 2010,710 2050,770" />
+    <path d="M-100,650 C480,500 880,780 1380,660 C1780,460 2030,730 2050,810" />
+  </g>
+
+  <!-- Cross Intersecting Waves -->
+  <g stroke="url(#lineGrad2)" stroke-width="1.2" fill="none">
+    <path d="M-50,850 C400,950 800,350 1300,750 C1700,1050 1900,450 2050,250" />
+    <path d="M-50,800 C420,910 820,380 1320,720 C1720,1000 1920,430 2050,230" />
+    <path d="M-50,750 C440,870 840,410 1340,690 C1740,950 1940,410 2050,210" />
+    <path d="M-50,700 C460,830 860,440 1360,660 C1760,900 1960,390 2050,190" />
+    <path d="M-50,650 C480,790 880,470 1380,630 C1780,850 1980,370 2050,170" />
+    <path d="M-50,600 C500,750 900,500 1400,600 C1800,800 2000,350 2050,150" />
+    <path d="M-50,550 C520,710 920,530 1420,570 C1820,750 2020,330 2050,130" />
+  </g>
+
+  <!-- Subtle grid lines for high-tech blueprint feel -->
+  <g stroke="#93c5fd" stroke-opacity="0.15" stroke-width="0.8">
+    <line x1="0" y1="120" x2="1920" y2="120" />
+    <line x1="0" y1="240" x2="1920" y2="240" />
+    <line x1="0" y1="360" x2="1920" y2="360" />
+    <line x1="0" y1="480" x2="1920" y2="480" />
+    <line x1="0" y1="600" x2="1920" y2="600" />
+    <line x1="0" y1="720" x2="1920" y2="720" />
+    <line x1="0" y1="840" x2="1920" y2="840" />
+    <line x1="0" y1="960" x2="1920" y2="960" />
+
+    <line x1="160" y1="0" x2="160" y2="1080" />
+    <line x1="320" y1="0" x2="320" y2="1080" />
+    <line x1="480" y1="0" x2="480" y2="1080" />
+    <line x1="640" y1="0" x2="640" y2="1080" />
+    <line x1="800" y1="0" x2="800" y2="1080" />
+    <line x1="960" y1="0" x2="960" y2="1080" />
+    <line x1="1120" y1="0" x2="1120" y2="1080" />
+    <line x1="1280" y1="0" x2="1280" y2="1080" />
+    <line x1="1440" y1="0" x2="1440" y2="1080" />
+    <line x1="1600" y1="0" x2="1600" y2="1080" />
+    <line x1="1760" y1="0" x2="1760" y2="1080" />
+  </g>
+</svg>
